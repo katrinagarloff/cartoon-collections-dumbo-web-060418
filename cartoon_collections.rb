@@ -24,4 +24,5 @@ def find_the_cheese(food_stuffs)
   
   food_stuffs.find do |food|
     food == cheese_types
+  end
 end
